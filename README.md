@@ -1,4 +1,4 @@
-# JACK-The-RobotDog
+# JACK-The-RobotDog[wip]
 A Quadrupedal Robot: "Robo-Dog"
 
 Overview:
