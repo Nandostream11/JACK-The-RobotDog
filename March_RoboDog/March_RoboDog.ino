@@ -9,15 +9,15 @@ Adafruit_PWMServoDriver pwm= Adafruit_PWMServoDriver();
 #define SERVOMAX  600 // Maximum pulse length (microseconds)
 
 // Define the number of the servo channel you want to control
-#define SERVO_0 3 // Example channel
-#define SERVO_1 4
-#define SERVO_2 5
-#define SERVO_3 6
-#define SERVO_4 7
-#define SERVO_5 8
-#define SERVO_6 0
-#define SERVO_7 1
-#define SERVO_8 2
+#define SERVO_0 0 // Example channel
+#define SERVO_1 1
+#define SERVO_2 2
+#define SERVO_3 3
+#define SERVO_4 4
+#define SERVO_5 5
+#define SERVO_6 6
+#define SERVO_7 7
+#define SERVO_8 8
 #define SERVO_9 9
 #define SERVO_10 10
 #define SERVO_11 11
@@ -78,7 +78,8 @@ void loop() {
     pwm.setPWM(SERVO_10,0,p3);
     pwm.setPWM(SERVO_11,0,p4);
   }
-    // int time=0;
+
+// int time=0;
   // int inc1=val(5);
   // int inc2=val(7.5);
   // int curr1=90;
